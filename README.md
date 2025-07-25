@@ -13,12 +13,12 @@ The project includes a PCIe driver compatible with the Raspberry Pi 5 and sample
 - Demo setup
 - Raspberry Pi 5 + Tang Mega 138K + PCIe adapter board + ASM1182e PCIe repeater board <br>
 
-![Demo setup](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/RP5_console_GPU.jpg?raw=true)
+![Demo setup](image/EduFPGA-RP5GPU/blob/main/image/RP5_console_GPU.jpg?raw=true)
 
 - ASM1182e PCIe repeater board
 - Without using the ASM1182e PCIe repeater board, the Gowin FPGA's PCIe IP is not recognized at RP5 startup.<br>
 
-![PCIe repeater board](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/ASM1182e.jpg?raw=true)
+![PCIe repeater board](image/EduFPGA-RP5GPU/blob/main/image/ASM1182e.jpg?raw=true)
 
 ## GPU
 - The design is based on the tiny-gpu project by the following author:
