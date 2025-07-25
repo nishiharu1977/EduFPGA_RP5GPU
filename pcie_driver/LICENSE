@@ -1,0 +1,4 @@
+This project includes components based on the Hailo PCIe driver,
+which is licensed under the GNU General Public License, Version 2.
+
+You can find the full license text in LICENSE-GPLv2.txt.
