@@ -18,7 +18,7 @@ The project includes a PCIe driver compatible with the Raspberry Pi 5 and sample
 - ASM1182e PCIe repeater board
 - Without using the ASM1182e PCIe repeater board, the Gowin FPGA's PCIe IP is not recognized at RP5 startup.<br>
 
-![PCIe repeater board](image/EduFPGA-RP5GPU/blob/main/image/ASM1182e.jpg?raw=true)
+![PCIe repeater board](image/ASM1182e.jpg "ASM1182e")
 
 ## GPU
 - The design is based on the tiny-gpu project by the following author:
@@ -26,7 +26,7 @@ https://github.com/adam-maj/tiny-gpu
 - The ISA (instruction set architecture) has been extended to include a floating-point multiplication instruction.
 - GPU ISA <br>
 
-![GPU ISA](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/GPU_ISA.jpg?raw=true)
+![GPU ISA](image/GPU_ISA.jpg "ISA")
 
 ## Directories
 - GPU design data runnable on FPGA.
@@ -37,7 +37,7 @@ https://github.com/adam-maj/tiny-gpu
 ## Block Diagram
 - Overall block diagram <br>
 
-![Overall block diagram](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/eduFPGA_GPU.jpg?raw=true)
+![Overall block diagram](image/eduFPGA_GPU.jpg "GPU")
 
 ## Delivered Artifacts
 - GPU design data (Verilog)
@@ -53,7 +53,7 @@ https://github.com/adam-maj/tiny-gpu
 - Data is transferred to the GPU via PCIe, and DL operations are executed.
 - Character image recognition result when running EduGPU_mnist.py <br>
 
-![Character image recognition result](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/GPU_demo.jpg?raw=true)
+![Character image recognition result](image/GPU_demo.jpg "DEMO")
 
 ## PCIe IP Settings
 - The PCIe IP BAR settings are as follows: <br>
@@ -70,7 +70,7 @@ https://github.com/adam-maj/tiny-gpu
 - Compatible with the Tang 138K SOM board.
 - (There are wiring correction points)
 
-![Demo board](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/FPGA_board.jpg?raw=true)
+![Demo board](image/FPGA_board.jpg "FPGA board")
 
 ## Unresolved Issues
 - DMA transfer is not yet supported.
