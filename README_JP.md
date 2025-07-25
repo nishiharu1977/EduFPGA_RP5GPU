@@ -13,11 +13,11 @@ PCIEドライバーを通してラズベリーパイ5と通信可能です。
 - デモ動作環境
 - raspberry pi 5 + Tang Mega 138K + PCIE変換基板 + ASM1182e PCIEレピーター基板 <br>
 
-![デモ動作環境](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/RP5_console_GPU.jpg?raw=true)
+![デモ動作環境](image/RP5_console_GPU.jpg "console")
 
 - ASM1182e PCIEレピーター基板
 - ASM1182e PCIEレピーター基板を使用しないとGowin FPGAのPCIE IPがRP5起動時に認識しません。<br>
-![PCIEレピーター基板](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/ASM1182e.jpg?raw=true)
+![PCIEレピーター基板](image/ASM1182e.jpg "ASM1182e")
 
 ## GPU
 - この方のtiny-gpuを参考に設計しています。
@@ -25,7 +25,7 @@ https://github.com/adam-maj/tiny-gpu
 - ISAは下図の通り、浮動小数点乗算命令を追加しました。
 - GPU ISA <br>
 
-![GPU ISA](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/GPU_ISA.jpg?raw=true)
+![GPU ISA](image/GPU_ISA.jpg "ISA")
 
 ## Directories
 - FPGAで動作可能なGPUの設計データです。
@@ -36,7 +36,7 @@ https://github.com/adam-maj/tiny-gpu
 ## Block図
 - 全体ブロック図 <br>
 
-![全体ブロック図](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/eduFPGA_GPU.jpg?raw=true)
+![全体ブロック図](image/eduFPGA_GPU.jpg "FPGA")
 
 ## 設計済み成果物
 - GPUの設計データ（Verilog）
@@ -52,7 +52,7 @@ https://github.com/adam-maj/tiny-gpu
 - GPUにPCIE経由でデータを転送しDLの演算を実行させています。
 - EduGPU_mnist.pyを実行した場合の文字画像認識結果 <br>
 
-![文字画像認識結果](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/GPU_demo.jpg?raw=true)
+![文字画像認識結果](image/GPU_demo.jpg "DEMO")
 
 ## PCIE IP設定
 - PCIE IPのBAR設定は下記 <br>
@@ -69,7 +69,7 @@ https://github.com/adam-maj/tiny-gpu
 - kiCADで設計しています。
 - （配線要修正箇所があります）
 
-![デモボード](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/FPGA_board.jpg?raw=true)
+![デモボード](image/FPGA_board.jpg "FPGA borad")
 
 ## 未解決の課題
 - DMA転送には未対応の課題。
