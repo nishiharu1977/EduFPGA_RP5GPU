@@ -4,12 +4,12 @@
 - Designed with KiCAD.
 - (There are wiring correction points) <br>
 
-![Demo board](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/FPGA_board.jpg?raw=true)
+![Demo board](../image/FPGA_board.jpg "FPGA")
 
 - Compatible with the Tang 138K SOM board. <br>
 
-![SOM board](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/SOM_omote.jpg?raw=true)
+![SOM board](../image/SOM_omote.jpg "SOM omote")
 
 - SOM Back side. <br>
 
-![SOM board](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/SOM_ura.jpg?raw=true)
+![SOM board](../image/SOM_ura.jpg "SOM ura")
