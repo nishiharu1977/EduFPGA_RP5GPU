@@ -16,4 +16,4 @@
 - tang mega 138k ボードのPMOD2コネクターにPMOD LCDを接続するとインジケーターが表示されます。
 - 現状ではダミー表示です。
 
-![PMOD_LCD](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/PMOD_LCD.jpg?raw=true)
+![PMOD_LCD](../image/PMOD_LCD.jpg "PMOD")
