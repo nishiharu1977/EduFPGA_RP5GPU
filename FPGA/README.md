@@ -17,4 +17,4 @@
 - When the PMOD LCD is connected to the PMOD2 connector of the Tang Mega 138K board, the indicator is displayed.
 - Currently, it is a dummy display. <br>
   
-![PMOD_LCD](https://github.com/rmbmp717/EduFPGA-RP5GPU/blob/main/image/PMOD_LCD.jpg?raw=true)
+![PMOD_LCD](image/PMOD_LCD.jpg "PMOD")
